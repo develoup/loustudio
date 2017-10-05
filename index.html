@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class='no-js' lang='en'>
+	<!--<![endif]-->
+	<head>
+		<meta charset='utf-8' />
+		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+		<title>loustudio</title>
+		
+		<meta content='' name='description' />
+		<meta content='' name='author' />		
+		<meta name="distribution" content="global" />
+		<meta name="language" content="en" />
+		<meta content='width=device-width, initial-scale=1.0' name='viewport' />
+		
+		<link rel="shortcut icon" href="favicon.ico" />
+		<!-- <link rel="apple-touch-icon" href="favicon.png" /> -->
+		
+		<link rel="stylesheet" href="lib/css/jquery.maximage.min.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="lib/css/screen.min.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="lib/css/main.min.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
+		
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if IE 6]>
+			<style type="text/css" media="screen">
+				#gradient {display:none;}
+			</style>
+		<![endif]-->
+		
+		<script>
+		  /*
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-XXXXXX-X']);
+		  _gaq.push(['_trackPageview']);
+			
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		  */
+		</script>		
+	</head>
+	<body>
+		<a href="http://www.loustudio.com/web/" id="logo">
+			<img src="lib/images/logo_STD.png" alt="" />
+		</a>
+		<div id="info-work">
+			<div id="info-work-bg"></div>
+			<div id="info-work-content"></div>
+			<div id="info-work-title"></div>
+			<div id="close_prj"></div>
+		</div>
+		<div id="lstdmn">
+			<div id="open_menu"></div>
+			<div id="bg_menu">
+				<div id="items_menu">
+					<div id="item_menu">CONTACT</div>
+					<div id="item_menu">MENTIONS</div>
+					<div id="item_menu">SOCIAL</div>
+				</div>
+			</div>
+			<div id="close_menu"></div>
+		</div>
+		<a href="" id="arrow_left"><img src="lib/images/home/arrow_left.png" alt="Slide Left" /></a>
+		<a href="" id="arrow_right"><img src="lib/images/home/arrow_right.png" alt="Slide Right" /></a>
+		<img id="cycle-loader" src="lib/images/ajax-loader.gif" />
+		<div id="maximage">
+			<div>
+				<img src="lib/images/home/sayfit.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="0">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite rosetext">SAYFIT</h3>
+						<h3 class="bgwhite rosetext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE & TECHNICAL DIRECTION</p>
+					<p>APP</p>
+					<p>PLATFORM</p>
+					<p>WEB</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/ikeapax.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="1">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite blueotext">IKEA</h3>
+						<h3 class="bgwhite blueotext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>UX/UI DIRECTION</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>WEBAPP</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/drawjay.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="2">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite orangetext">DRAWJAY</h3>
+						<h3 class="bgwhite orangetext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE & TECHNICAL DIRECTION</p>
+					<p>ART & TECHNOLOGY</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/intvvideo.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="3">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite greytext">INTERIORVISTA</h3>
+						<h3 class="bgwhite greytext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DIRECTION</p>
+					<p>MARKETING CAMPAIGN</p>
+					<p>VIDEO</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/falc.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="4">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite marronctext">FALÇ BAND</h3>
+						<h3 class="bgwhite marronctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DIRECTION</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>VIDEO</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/erf.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="5">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite bluetext">ERF</h3>
+						<h3 class="bgwhite bluetext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE & TECHNICAL DIRECTION</p>
+					<p>ONLINE & OFFLINE</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/messi.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="6">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite bluetext">LEO MESSI</h3>
+						<h3 class="bgwhite bluetext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>SOCIAL CAMPAIGN</p>
+					<p>FACEBOOK APP</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/martini.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="7">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite redctext">MARTINI</h3>
+						<h3 class="bgwhite redctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>WEB</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/fitness.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="8">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite purpletext">NESTLÉ FITNESS</h3>
+						<h3 class="bgwhite purpletext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>SOCIAL CAMPAIGN</p>
+					<p>FACEBOOK APP</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/dolcegusto.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="9">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite redotext">DOLCEGUSTO</h3>
+						<h3 class="bgwhite redotext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>TECHNICAL DIRECTION</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>WEB</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/paugasol.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="10">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite redctext">PAU GASOL</h3>
+						<h3 class="bgwhite redctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE & TECHNICAL DIRECTION</p>
+					<p>SOCIAL CAMPAIGN</p>
+					<p>FACEBOOK APP</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/corneto.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="11">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite redctext">CORNETTO</h3>
+						<h3 class="bgwhite redctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>WEB</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/magnum.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="12">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite marronctext">MAGNUM</h3>
+						<h3 class="bgwhite marronctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>WEB</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/elreto.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="13">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite redctext">PAU GASOL</h3>
+						<h3 class="bgwhite redctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>TECHNICAL DIRECTION</p>
+					<p>SOCIAL CAMPAIGN</p>
+					<p>FACEBOOK APP</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/fcb.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="14">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite orangetext">FCBARCELONA</h3>
+						<h3 class="bgwhite orangetext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>SOCIAL CAMPAIGN</p>
+					<p>FACEBOOK APP</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/klickoff.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="15">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite redctext">IDAE</h3>
+						<h3 class="bgwhite redctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>WEB</p>
+					<p>BANNER APP</p>
+				</div>
+			</div>
+			<div class="video">
+				<img src="lib/images/home/tourspana.png" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="16">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite marronotext">TOUR ESPAÑA</h3>
+						<h3 class="bgwhite marronotext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>VIDEO BANNER</p>
+				</div>
+				<!-- <video controls="controls" muted="muted" poster="lib/images/home/tourspana.png" width="640" height="360">
+					<source src="lib/images/home/tourspana.mp4" type="video/mp4" />
+					<source src="lib/images/home/tourspana.webm" type="video/webm" />
+					<source src="lib/images/home/tourspana.ogv" type="video/ogg" />
+					Your browser does not support HTML5 videos.
+				</video> -->
+			</div>
+			<div>
+				<img src="lib/images/home/rafanadal.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="17">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite orangetext">RAFA NADAL</h3>
+						<h3 class="bgwhite orangetext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>TECHNICAL DIRECTION</p>
+					<p>SOCIAL CAMPAIGN</p>
+					<p>WEB</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/repsol.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="18">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite orangetext">REPSOL</h3>
+						<h3 class="bgwhite orangetext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>TECHNICAL DIRECTION</p>
+					<p>SOCIAL CAMPAIGN</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/ricoh.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="19">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite redctext">RICOH</h3>
+						<h3 class="bgwhite redctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>WEB</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/porcelanosa.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="20">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite bluetext">PORCELANOSA</h3>
+						<h3 class="bgwhite bluetext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>WEB</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/mastercard.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="21">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite redctext">MASTERCARD</h3>
+						<h3 class="bgwhite redctext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>BANNER</p>
+				</div>
+			</div>
+			<div>
+				<img src="lib/images/home/powerade.jpg" alt="" />
+				<img id="gradient" src="lib/images/home/gradient.png" alt="" />
+				<div class="in-slide-content" style="display:none;">
+					<div class="work" id="22">
+						<h3 class="bgwhite blacktext">WORK</h3>
+						<h3 class="bgwhite blueotext">POWERADE</h3>
+						<h3 class="bgwhite blueotext cursor">&nbsp+&nbsp</h3>
+					</div>
+					<p>CREATIVE DEVELOPMENT</p>
+					<p>DIGITAL CAMPAIGN</p>
+					<p>WEB</p>
+				</div>
+			</div>
+		</div>
+		
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
+		<script src="lib/js/lstdcntrl.js?v=1.2" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/jquery.maximage.js?v=1.2" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/js/lstdm.min.js?v=1.2" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
